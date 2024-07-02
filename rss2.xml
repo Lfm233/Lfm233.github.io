@@ -9,29 +9,31 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 02 Jul 2024 16:27:30 GMT</pubDate>
+    <pubDate>Tue, 02 Jul 2024 16:37:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
-      <link>http://example.com/2024/07/03/Git%E4%BD%BF%E7%94%A8-1/</link>
-      <guid>http://example.com/2024/07/03/Git%E4%BD%BF%E7%94%A8-1/</guid>
-      <pubDate>Tue, 02 Jul 2024 16:17:57 GMT</pubDate>
+      <title>Git_use</title>
+      <link>http://example.com/2024/07/03/Git_use/</link>
+      <guid>http://example.com/2024/07/03/Git_use/</guid>
+      <pubDate>Tue, 02 Jul 2024 16:32:24 GMT</pubDate>
       
         
         
-      <description>&lt;hr&gt;
-&lt;h2 id=&quot;Git的使用&quot;&gt;&lt;a href=&quot;#Git的使用&quot; class=&quot;headerlink&quot; title=&quot;Git的使用&quot;&gt;&lt;/a&gt;Git的使用&lt;/h2&gt;&lt;h5 id=&quot;themes-next-layout-partials-footer-swig&quot;&gt;&lt;a </description>
+      <description>&lt;p&gt;先看视频&lt;/p&gt;
+</description>
         
       
       
       
-      <content:encoded><![CDATA[<hr><h2 id="Git的使用"><a href="#Git的使用" class="headerlink" title="Git的使用"></a>Git的使用</h2><h5 id="themes-next-layout-partials-footer-swig"><a href="#themes-next-layout-partials-footer-swig" class="headerlink" title="themes&#x2F;next&#x2F;layout&#x2F;_partials&#x2F;footer.swig"></a>themes&#x2F;next&#x2F;layout&#x2F;_partials&#x2F;footer.swig</h5><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">--&#123;%- <span class="keyword">if</span> theme.footer.beian.enable %&#125;</span><br><span class="line"></span><br><span class="line">  &lt;div <span class="class"><span class="keyword">class</span>=&quot;<span class="title">beian</span>&quot;&gt;</span></span><br><span class="line"><span class="class">    </span>&#123;&#123;- <span class="title function_ invoke__">next_url</span>(<span class="string">&#x27;https://beian.miit.gov.cn&#x27;</span>, theme.footer.beian.icp + <span class="string">&#x27; &#x27;</span>) &#125;&#125;</span><br><span class="line">    &#123;%- <span class="keyword">if</span> theme.footer.beian.gongan_icon_url %&#125;</span><br><span class="line">      &lt;img src=<span class="string">&quot;&#123;&#123; url_for(theme.footer.beian.gongan_icon_url) &#125;&#125;&quot;</span> style=<span class="string">&quot;display: inline-block;&quot;</span>&gt;</span><br><span class="line">    &#123;%- <span class="keyword">endif</span> %&#125;</span><br><span class="line">    &#123;%- <span class="keyword">if</span> theme.footer.beian.gongan_id <span class="keyword">and</span> theme.footer.beian.gongan_num %&#125;</span><br><span class="line">      &#123;&#123;- <span class="title function_ invoke__">next_url</span>(<span class="string">&#x27;http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=&#x27;</span> + theme.footer.beian.gongan_id, theme.footer.beian.gongan_num + <span class="string">&#x27; &#x27;</span>) &#125;&#125;</span><br><span class="line">    &#123;%- <span class="keyword">endif</span> %&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&#123;%- <span class="keyword">endif</span> %&#125; </span><br></pre></td></tr></table></figure>]]></content:encoded>
+      <content:encoded><![CDATA[<p>先看视频</p>]]></content:encoded>
       
       
       
+      <category domain="http://example.com/tags/tool/">tool</category>
       
-      <comments>http://example.com/2024/07/03/Git%E4%BD%BF%E7%94%A8-1/#disqus_thread</comments>
+      
+      <comments>http://example.com/2024/07/03/Git_use/#disqus_thread</comments>
       
     </item>
     
